@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+    
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .top-bar{
+            background-color: black;
+           height: 35px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+            color: #fff;
+            font-size: 18px;
+        }
+        header{
+
+          display: flex;
+          height: 80px;
+          background-color: #fff;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 30px;
+        }
+
+        .navigation{
+            background-color: #fff;
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        .navigation ul{
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+
+            height: 50px;
+            align-items: center;
+        }
+
+
+
+        .navigation ul li{
+            list-style: none;
+        }
+        .navigation ul li a{
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+        }
+
+        input[type="search"]{
+            border: none;
+        }
+        input[type="search"]:focus{
+            outline: none;
+        }
+
+        .fa-magnifying-glass{
+            opacity: 0.6;
+        }
+
+        .fa-sort-down{
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .cart-icon{
+            display: flex;
+            gap: 28px;
+        }
+
+        
+
+        .banner{
+            background-image: url(img/banner.webp);
+            background-size: cover;
+            height: 500px;
+            background-position: center;
+        }
+
+        .celebrity-section{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: -30px;
+
+        }
+
+        .container{
+            display: flex;
+            gap: 30px;
+            padding: 80px 120px;
+        }
+        .container .card{
+            width: 50%;
+           height: 300px;
+            background-color: tan;
+        }
+        .card img{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    
+<div class="top-bar">
+    <p>Karagiri 6th Anniversary Use Code: KARAGIRI6 & Get Extra 25% OFF</p>
+</div>
+
+<header>
+    <form action="">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" name="" id="" placeholder="Search">
+    </form>
+
+    <a href=""><img src="img/logo.webp" alt=""></a>
+
+    <div class="cart-icon">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-regular fa-user"></i>
+    </div>
+</header>
+
+<div class="navigation">
+    <ul>
+        <li><a href="">Home <i class="fa-solid fa-sort-down"></i> </a></li>
+        <li><a href="">Home <i class="fa-solid fa-sort-down"></i></a></li>
+        <li><a href="">Home <i class="fa-solid fa-sort-down"></i></a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">Home</a></li>
+
+    </ul>
+
+</div>
+
+<div class="banner"></div>
+
+
+<section class="celebrity-section">
+
+    <h3>CELEBRITY CHOICE</h3>
+
+    <div class="container">
+        <div class="card">
+            <img src="img/1.webp"  alt="">
+            <p>ROSHNI BHATIA in Wine Purple Woven Kanjivaram Saree 
+                </p>
+                <p>12987</p>
+                <div class="rating">
+                    <i></i>
+                </div>
+
+        </div>
+        <div class="card">
+            <img src="img/1.webp"  alt="">
+
+        </div>
+        <div class="card">
+            <img src="img/1.webp"  alt="">
+
+        </div>
+        <div class="card">
+
+            <img src="img/1.webp"  alt="">
+        </div>
+    </div>
+
+
+</section>
+
+</body>
+</html>
